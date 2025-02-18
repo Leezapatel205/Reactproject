@@ -1,0 +1,109 @@
+
+  .profile-icon{
+    color:black;
+    font-size:25px;
+    margin-top: 10px;
+
+  }
+  
+  
+  .user-icon {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .user-icon:hover {
+    color: #3b82f6;
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: left;
+    z-index: 10;
+  }
+  
+  
+  .profile-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+  }
+   
+
+  .profile-details p {
+    font-size: 14px;
+    color: #333;
+    margin: 6px 0;
+  }
+  
+ 
+  .no-data-text {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+
+  .edit-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+
+  .edit-button,
+  .clear-button,
+  .save-button {
+    width: 100%;
+  
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .edit-button {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .save-button {
+    background-color: #22c55e;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #16a34a;
+  }
+  
+  .clear-button {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .clear-button:hover {
+    background-color:#dc2626;
+  }
+  .logout{
+    color: red;
+    font-size:20px;
+  }

@@ -1,0 +1,63 @@
+.slider {
+  display: block;
+  position: relative;
+  width: 100%;  
+  height: 600px; 
+  margin:0 auto 50px auto;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.slide {
+  position: absolute;
+  top: 20;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+
+ 
+}
+
+
+.caption {
+  position: absolute;
+  justify-content: center;
+  top: 20px;
+  
+  margin-top: 300px;
+  margin-left: 100px;
+  padding: 10px 15px;
+  
+  color: #0b0b0b;
+  font-size: 1.4cm;
+ 
+}
+
+.button-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 310px;
+  height: 70px;
+  border-radius: 75px;
+  margin-top: 450px;
+  margin-left: 100px;
+  background: red;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+
+}
